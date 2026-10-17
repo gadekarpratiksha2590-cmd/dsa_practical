@@ -1,3 +1,4 @@
+# Supply Chain Management System
 ## Problem Statement 
 Design and implement a Singly Linked List in C++ to simulate a Supply Chain Journey Tracker (Mini-Blockchain). The system tracks a high-value product (such as organic medicine or luxury electronics) from its manufacturing origin to the final customer. Each state transition is recorded as a "Block" (node) in the chain containing data like location, timestamp, custodian name, and verification state.
 ## Approach
