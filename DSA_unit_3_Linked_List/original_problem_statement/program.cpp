@@ -1,4 +1,4 @@
-## Program for Supply Chain Management
+//Program for Supply Chain Management
 
 #include <iostream>
 #include <string>
