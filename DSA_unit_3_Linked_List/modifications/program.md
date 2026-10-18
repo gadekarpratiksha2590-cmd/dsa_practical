@@ -163,33 +163,7 @@ int main() {
     }
 }
 
-#include <iostream>
-#include <string>
-
-using namespace std;
-
-struct CheckpointNode {
-    string location;
-    string custodian;
-    string timestamp;
-    CheckpointNode* next;
-};
-
-class SupplyChainManager {
-private:
-    CheckpointNode* front; 
-    CheckpointNode* rear;  
-    CheckpointNode* top;  
-
-public:
-    SupplyChainManager() {
-        front = NULL;
-        rear = NULL;
-        top = NULL;
-    }
-
-
-    void addForwardCheckpoint(string loc, string cust, string time) {
+(string loc, string cust, string time) {
         CheckpointNode* newNode = new CheckpointNode();
         newNode->location = loc;
         newNode->custodian = cust;
